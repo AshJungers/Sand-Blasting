@@ -1,0 +1,63 @@
+/* Title and Navbar */
+#title {
+  background-color: #2155cd;
+}
+
+.body-container {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  opacity: 0.8;
+}
+
+a {
+  color: #ece5c7;
+  text-decoration: none;
+}
+
+nav {
+  padding: 5px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #ece5c7;
+  font-weight: bold;
+}
+
+/* About Section */
+
+h3 {
+  font-family: "League Gothic", sans-seri;
+  text-align: center;
+}
+/* Footer */
+
+footer {
+  color: #ece5c7;
+  background-color: #2155cd;
+}
