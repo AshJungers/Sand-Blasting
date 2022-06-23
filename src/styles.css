@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Title and Navbar */
 #title {
   background-color: #2155cd;
@@ -13,8 +17,13 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  font-weight: bolder;
+}
+
 h2 {
-  opacity: 0.8;
+  font-weight: 400;
+  opacity: 0.9;
 }
 
 a {
@@ -50,6 +59,10 @@ nav li.active a {
 }
 
 /* About Section */
+
+.about-section p {
+  text-align: center;
+}
 
 .about-icon {
   color: #2155cd;
