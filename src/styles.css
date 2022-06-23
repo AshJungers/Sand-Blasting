@@ -51,7 +51,12 @@ nav li.active a {
 
 /* About Section */
 
-.about-section {
+.about-icon {
+  color: #2155cd;
+  display: inline-block;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
 }
 
 h3 {
