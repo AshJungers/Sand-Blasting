@@ -78,6 +78,11 @@ h3 {
 }
 
 /* Before and After Images */
+.carousel {
+  margin: 0 auto;
+  width: 640px;
+  height: 360px;
+}
 
 /* Footer */
 
