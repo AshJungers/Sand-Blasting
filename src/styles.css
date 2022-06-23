@@ -14,15 +14,19 @@ body {
 
 h1,
 h2 {
+  color: #fff;
   text-align: center;
 }
 
 h1 {
   font-weight: bolder;
+  font-size: 65px;
+  margin-top: 150px;
 }
 
 h2 {
   font-weight: 400;
+  margin-bottom: 150px;
   opacity: 0.9;
 }
 
@@ -60,8 +64,13 @@ nav li.active a {
 
 /* About Section */
 
+.about-section {
+  margin: 100px auto;
+}
+
 .about-section p {
   text-align: center;
+  font-size: 25px;
 }
 
 .about-icon {
@@ -72,21 +81,48 @@ nav li.active a {
   text-align: center;
 }
 
+.about-us {
+  padding: 10px 30px;
+}
+
 h3 {
   font-family: "League Gothic", sans-seri;
+  font-size: 50px;
   text-align: center;
 }
 
+/* Application Section */
+
+#applications {
+  color: #fff;
+  background-color: #2155cd;
+  font-size: 20px;
+  padding: 50px 0;
+}
+
+#applications p {
+  line-height: 1.7;
+}
+
+.app {
+  letter-spacing: 1px;
+}
 /* Before and After Images */
+
 .carousel {
   margin: 0 auto;
   width: 640px;
   height: 360px;
 }
 
+.fireplaceimg {
+  width: 640px;
+  height: 360px;
+}
 /* Footer */
 
 footer {
   color: #ece5c7;
   background-color: #2155cd;
+  padding: 50px 0;
 }
